@@ -8,5 +8,5 @@ class ListingSerializer(serializers.ModelSerializer):
 
 class BookingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Booking
+        mode = Booking
         fields = '__all__'
